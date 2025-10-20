@@ -1,6 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://bp4hvvt26mgx8"]
+[gd_scene load_steps=5 format=3 uid="uid://bp4hvvt26mgx8"]
 
 [ext_resource type="Script" uid="uid://2qkb5y1f0cr4" path="res://scenes/scripts/control.gd" id="1_5p55f"]
+[ext_resource type="AudioStream" uid="uid://davwa80qcr0xy" path="res://assets/Click_sound.mp3" id="2_r67kn"]
+[ext_resource type="AudioStream" uid="uid://dq3arwpnfjpgm" path="res://assets/restart-sound.wav" id="3_brbbq"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cr3o2"]
 bg_color = Color(0.21754661, 0.21766636, 0.3259143, 1)
@@ -86,3 +88,12 @@ layout_mode = 2
 theme_override_constants/outline_size = 0
 theme_override_font_sizes/font_size = 200
 theme_override_styles/normal = SubResource("StyleBoxFlat_cr3o2")
+
+[node name="Click_sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_r67kn")
+bus = &"SFX"
+
+[node name="restart_sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_brbbq")
+volume_db = 7.61
+bus = &"SFX"
