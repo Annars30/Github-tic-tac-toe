@@ -1,0 +1,88 @@
+[gd_scene load_steps=3 format=3 uid="uid://bp4hvvt26mgx8"]
+
+[ext_resource type="Script" uid="uid://2qkb5y1f0cr4" path="res://scenes/scripts/control.gd" id="1_5p55f"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cr3o2"]
+bg_color = Color(0.21754661, 0.21766636, 0.3259143, 1)
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchor_right = 1.003
+anchor_bottom = 1.0
+offset_right = 0.2999878
+offset_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5p55f")
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.006
+anchor_bottom = 1.008
+offset_right = -0.4180298
+offset_bottom = -0.20800781
+columns = 3
+
+[node name="Button" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(300, 300)
+layout_mode = 2
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 200
+theme_override_styles/normal = SubResource("StyleBoxFlat_cr3o2")
+
+[node name="Button2" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(300, 300)
+layout_mode = 2
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 200
+theme_override_styles/normal = SubResource("StyleBoxFlat_cr3o2")
+
+[node name="Button3" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(300, 300)
+layout_mode = 2
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 200
+theme_override_styles/normal = SubResource("StyleBoxFlat_cr3o2")
+
+[node name="Button4" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(300, 300)
+layout_mode = 2
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 200
+theme_override_styles/normal = SubResource("StyleBoxFlat_cr3o2")
+
+[node name="Button5" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(300, 300)
+layout_mode = 2
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 200
+theme_override_styles/normal = SubResource("StyleBoxFlat_cr3o2")
+
+[node name="Button6" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(300, 300)
+layout_mode = 2
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 200
+theme_override_styles/normal = SubResource("StyleBoxFlat_cr3o2")
+
+[node name="Button7" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(300, 300)
+layout_mode = 2
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 200
+theme_override_styles/normal = SubResource("StyleBoxFlat_cr3o2")
+
+[node name="Button8" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(300, 300)
+layout_mode = 2
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 200
+theme_override_styles/normal = SubResource("StyleBoxFlat_cr3o2")
+
+[node name="Button9" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(300, 300)
+layout_mode = 2
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 200
+theme_override_styles/normal = SubResource("StyleBoxFlat_cr3o2")
